@@ -1,0 +1,3 @@
+[submodule "Arduino-Air32F103-Drivers"]
+	path = Drivers
+	url = https://github.com/Air-duino/Arduino-Air32F103-Drivers.git
