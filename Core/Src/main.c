@@ -49,6 +49,7 @@
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
+void MCO_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -89,6 +90,7 @@ int main(void)
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
   MyPrintf("Hello World!\n");
+  MCO_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -144,7 +146,10 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void MCO_Init(void)
+{
+  HAL_RCC_MCOConfig(RCC_MCO1, RCC_MCO1SOURCE_PLLCLK_DIV16, RCC_MCODIV_1);
+}
 /* USER CODE END 4 */
 
 /**
