@@ -1,0 +1,9 @@
+build-idx:
+  generated-by: csolution version 2.0.0
+  csolution: AIR32F103Test.csolution.yaml
+  cprojects:
+    - cproject: AIR32F103Test.cproject.yaml
+  cbuilds:
+    - cbuild: AIR32F103Test+AIR32F103Test.cbuild.yml
+      project: AIR32F103Test
+      configuration: +AIR32F103Test

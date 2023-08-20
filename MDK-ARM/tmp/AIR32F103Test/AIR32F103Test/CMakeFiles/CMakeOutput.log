@@ -1,0 +1,140 @@
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.22621 - AMD64
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.22621 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: c:/Users/HalfSweet/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.20.0/bin/armclang.exe 
+Build flags: -mcpu=Cortex-M3;-mfpu=none
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is ARMClang, found in "D:/Air001Test/AIR32F103Test/MDK-ARM/tmp/AIR32F103Test/AIR32F103Test/CMakeFiles/3.25.2/CompilerIdC/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: c:/Users/HalfSweet/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.20.0/bin/armclang.exe 
+Build flags: -mcpu=Cortex-M3;-mfpu=none
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is ARMClang, found in "D:/Air001Test/AIR32F103Test/MDK-ARM/tmp/AIR32F103Test/AIR32F103Test/CMakeFiles/3.25.2/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Air001Test/AIR32F103Test/MDK-ARM/tmp/AIR32F103Test/AIR32F103Test/CMakeFiles/CMakeScratch/TryCompile-sevhnm
+
+Run Build Command(s):C:/Users/HalfSweet/.vcpkg/artifacts/vcpkg-ce-default/tools.ninja.build.ninja/1.10.2/ninja.exe cmTC_a7962 && [1/2] Building C object CMakeFiles/cmTC_a7962.dir/CMakeCCompilerABI.o
+Product: Keil MDK Community
+Component: Arm Compiler for Embedded 6.20
+Tool: armclang [5e9ad700]
+
+Target: arm-arm-none-eabi
+ (in-process)
+ "c:\\Users\\HalfSweet\\.vcpkg\\artifacts\\fd3d78d7\\compilers.arm.armclang\\6.20.0\\bin\\armclang.exe" -cc1 -triple thumbv7m-arm-none-eabi -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fdenormal-fp-math=preserve-sign,preserve-sign -ffp-contract=on -fno-rounding-math -ffinite-math-only -mconstructor-aliases -target-cpu cortex-m3 -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -fforce-dwarf-frame -v -ffunction-sections -fdata-sections "-fcoverage-compilation-dir=D:\\Air001Test\\AIR32F103Test\\MDK-ARM\\tmp\\AIR32F103Test\\AIR32F103Test\\CMakeFiles\\CMakeScratch\\TryCompile-sevhnm" -resource-dir "c:\\Users\\HalfSweet\\.vcpkg\\artifacts\\fd3d78d7\\compilers.arm.armclang\\6.20.0\\lib\\clang\\17" -dependency-file "CMakeFiles\\cmTC_a7962.dir\\CMakeCCompilerABI.o.d" -MT CMakeFiles/cmTC_a7962.dir/CMakeCCompilerABI.o -sys-header-deps -internal-isystem "c:\\Users\\HalfSweet\\.vcpkg\\artifacts\\fd3d78d7\\compilers.arm.armclang\\6.20.0\\bin\\..\\include" -nobuiltininc "-fdebug-compilation-dir=D:\\Air001Test\\AIR32F103Test\\MDK-ARM\\tmp\\AIR32F103Test\\AIR32F103Test\\CMakeFiles\\CMakeScratch\\TryCompile-sevhnm" -ferror-limit 19 -fvisibility=hidden -fno-signed-char -fgnuc-version=4.2.1 -fsuppress-licensing -aggressive-jump-threading -o CMakeFiles/cmTC_a7962.dir/CMakeCCompilerABI.o -x c C:/Users/HalfSweet/.vcpkg/artifacts/vcpkg-ce-default/tools.kitware.cmake/3.25.2/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Arm Compiler for Embedded 6.20 -cc1 default target aarch64-arm-none-eabi
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\Users\HalfSweet\.vcpkg\artifacts\fd3d78d7\compilers.arm.armclang\6.20.0\bin\..\include
+End of search list.
+[2/2] Linking C static library libcmTC_a7962.a
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Air001Test/AIR32F103Test/MDK-ARM/tmp/AIR32F103Test/AIR32F103Test/CMakeFiles/CMakeScratch/TryCompile-hrhuip
+
+Run Build Command(s):C:/Users/HalfSweet/.vcpkg/artifacts/vcpkg-ce-default/tools.ninja.build.ninja/1.10.2/ninja.exe cmTC_8dde6 && [1/2] Building C object CMakeFiles/cmTC_8dde6.dir/CMakeCCompilerABI.o
+Product: Keil MDK Community
+Component: Arm Compiler for Embedded 6.20
+Tool: armclang [5e9ad700]
+
+Target: arm-arm-none-eabi
+ (in-process)
+ "c:\\Users\\HalfSweet\\.vcpkg\\artifacts\\fd3d78d7\\compilers.arm.armclang\\6.20.0\\bin\\armclang.exe" -cc1 -triple thumbv7m-arm-none-eabi -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fdenormal-fp-math=preserve-sign,preserve-sign -ffp-contract=on -fno-rounding-math -ffinite-math-only -mconstructor-aliases -target-cpu cortex-m3 -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -fforce-dwarf-frame -v -ffunction-sections -fdata-sections "-fcoverage-compilation-dir=D:\\Air001Test\\AIR32F103Test\\MDK-ARM\\tmp\\AIR32F103Test\\AIR32F103Test\\CMakeFiles\\CMakeScratch\\TryCompile-hrhuip" -resource-dir "c:\\Users\\HalfSweet\\.vcpkg\\artifacts\\fd3d78d7\\compilers.arm.armclang\\6.20.0\\lib\\clang\\17" -dependency-file "CMakeFiles\\cmTC_8dde6.dir\\CMakeCCompilerABI.o.d" -MT CMakeFiles/cmTC_8dde6.dir/CMakeCCompilerABI.o -sys-header-deps -internal-isystem "c:\\Users\\HalfSweet\\.vcpkg\\artifacts\\fd3d78d7\\compilers.arm.armclang\\6.20.0\\bin\\..\\include" -nobuiltininc "-fdebug-compilation-dir=D:\\Air001Test\\AIR32F103Test\\MDK-ARM\\tmp\\AIR32F103Test\\AIR32F103Test\\CMakeFiles\\CMakeScratch\\TryCompile-hrhuip" -ferror-limit 19 -fvisibility=hidden -fno-signed-char -fgnuc-version=4.2.1 -fsuppress-licensing -aggressive-jump-threading -o CMakeFiles/cmTC_8dde6.dir/CMakeCCompilerABI.o -x c C:/Users/HalfSweet/.vcpkg/artifacts/vcpkg-ce-default/tools.kitware.cmake/3.25.2/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Arm Compiler for Embedded 6.20 -cc1 default target aarch64-arm-none-eabi
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\Users\HalfSweet\.vcpkg\artifacts\fd3d78d7\compilers.arm.armclang\6.20.0\bin\..\include
+End of search list.
+[2/2] Linking C static library libcmTC_8dde6.a
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/Users/HalfSweet/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.20.0/bin/../include]
+  end of search list found
+  collapse include dir [c:/Users/HalfSweet/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.20.0/bin/../include] ==> [C:/Users/HalfSweet/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.20.0/include]
+  implicit include dirs: [C:/Users/HalfSweet/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.20.0/include]
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/Users/HalfSweet/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.20.0/bin/../include]
+  end of search list found
+  collapse include dir [c:/Users/HalfSweet/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.20.0/bin/../include] ==> [C:/Users/HalfSweet/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.20.0/include]
+  implicit include dirs: [C:/Users/HalfSweet/.vcpkg/artifacts/fd3d78d7/compilers.arm.armclang/6.20.0/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(armlink\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/Air001Test/AIR32F103Test/MDK-ARM/tmp/AIR32F103Test/AIR32F103Test/CMakeFiles/CMakeScratch/TryCompile-sevhnm]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Users/HalfSweet/.vcpkg/artifacts/vcpkg-ce-default/tools.ninja.build.ninja/1.10.2/ninja.exe cmTC_a7962 && [1/2] Building C object CMakeFiles/cmTC_a7962.dir/CMakeCCompilerABI.o]
+  ignore line: [Product: Keil MDK Community]
+  ignore line: [Component: Arm Compiler for Embedded 6.20]
+  ignore line: [Tool: armclang [5e9ad700]]
+  ignore line: []
+  ignore line: [Target: arm-arm-none-eabi]
+  ignore line: [ (in-process)]
+  ignore line: [ "c:\\Users\\HalfSweet\\.vcpkg\\artifacts\\fd3d78d7\\compilers.arm.armclang\\6.20.0\\bin\\armclang.exe" -cc1 -triple thumbv7m-arm-none-eabi -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fdenormal-fp-math=preserve-sign preserve-sign -ffp-contract=on -fno-rounding-math -ffinite-math-only -mconstructor-aliases -target-cpu cortex-m3 -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -fforce-dwarf-frame -v -ffunction-sections -fdata-sections "-fcoverage-compilation-dir=D:\\Air001Test\\AIR32F103Test\\MDK-ARM\\tmp\\AIR32F103Test\\AIR32F103Test\\CMakeFiles\\CMakeScratch\\TryCompile-sevhnm" -resource-dir "c:\\Users\\HalfSweet\\.vcpkg\\artifacts\\fd3d78d7\\compilers.arm.armclang\\6.20.0\\lib\\clang\\17" -dependency-file "CMakeFiles\\cmTC_a7962.dir\\CMakeCCompilerABI.o.d" -MT CMakeFiles/cmTC_a7962.dir/CMakeCCompilerABI.o -sys-header-deps -internal-isystem "c:\\Users\\HalfSweet\\.vcpkg\\artifacts\\fd3d78d7\\compilers.arm.armclang\\6.20.0\\bin\\..\\include" -nobuiltininc "-fdebug-compilation-dir=D:\\Air001Test\\AIR32F103Test\\MDK-ARM\\tmp\\AIR32F103Test\\AIR32F103Test\\CMakeFiles\\CMakeScratch\\TryCompile-sevhnm" -ferror-limit 19 -fvisibility=hidden -fno-signed-char -fgnuc-version=4.2.1 -fsuppress-licensing -aggressive-jump-threading -o CMakeFiles/cmTC_a7962.dir/CMakeCCompilerABI.o -x c C:/Users/HalfSweet/.vcpkg/artifacts/vcpkg-ce-default/tools.kitware.cmake/3.25.2/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Arm Compiler for Embedded 6.20 -cc1 default target aarch64-arm-none-eabi]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\Users\HalfSweet\.vcpkg\artifacts\fd3d78d7\compilers.arm.armclang\6.20.0\bin\..\include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C static library libcmTC_a7962.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(armlink\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/Air001Test/AIR32F103Test/MDK-ARM/tmp/AIR32F103Test/AIR32F103Test/CMakeFiles/CMakeScratch/TryCompile-hrhuip]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Users/HalfSweet/.vcpkg/artifacts/vcpkg-ce-default/tools.ninja.build.ninja/1.10.2/ninja.exe cmTC_8dde6 && [1/2] Building C object CMakeFiles/cmTC_8dde6.dir/CMakeCCompilerABI.o]
+  ignore line: [Product: Keil MDK Community]
+  ignore line: [Component: Arm Compiler for Embedded 6.20]
+  ignore line: [Tool: armclang [5e9ad700]]
+  ignore line: []
+  ignore line: [Target: arm-arm-none-eabi]
+  ignore line: [ (in-process)]
+  ignore line: [ "c:\\Users\\HalfSweet\\.vcpkg\\artifacts\\fd3d78d7\\compilers.arm.armclang\\6.20.0\\bin\\armclang.exe" -cc1 -triple thumbv7m-arm-none-eabi -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fdenormal-fp-math=preserve-sign preserve-sign -ffp-contract=on -fno-rounding-math -ffinite-math-only -mconstructor-aliases -target-cpu cortex-m3 -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -fforce-dwarf-frame -v -ffunction-sections -fdata-sections "-fcoverage-compilation-dir=D:\\Air001Test\\AIR32F103Test\\MDK-ARM\\tmp\\AIR32F103Test\\AIR32F103Test\\CMakeFiles\\CMakeScratch\\TryCompile-hrhuip" -resource-dir "c:\\Users\\HalfSweet\\.vcpkg\\artifacts\\fd3d78d7\\compilers.arm.armclang\\6.20.0\\lib\\clang\\17" -dependency-file "CMakeFiles\\cmTC_8dde6.dir\\CMakeCCompilerABI.o.d" -MT CMakeFiles/cmTC_8dde6.dir/CMakeCCompilerABI.o -sys-header-deps -internal-isystem "c:\\Users\\HalfSweet\\.vcpkg\\artifacts\\fd3d78d7\\compilers.arm.armclang\\6.20.0\\bin\\..\\include" -nobuiltininc "-fdebug-compilation-dir=D:\\Air001Test\\AIR32F103Test\\MDK-ARM\\tmp\\AIR32F103Test\\AIR32F103Test\\CMakeFiles\\CMakeScratch\\TryCompile-hrhuip" -ferror-limit 19 -fvisibility=hidden -fno-signed-char -fgnuc-version=4.2.1 -fsuppress-licensing -aggressive-jump-threading -o CMakeFiles/cmTC_8dde6.dir/CMakeCCompilerABI.o -x c C:/Users/HalfSweet/.vcpkg/artifacts/vcpkg-ce-default/tools.kitware.cmake/3.25.2/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Arm Compiler for Embedded 6.20 -cc1 default target aarch64-arm-none-eabi]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\Users\HalfSweet\.vcpkg\artifacts\fd3d78d7\compilers.arm.armclang\6.20.0\bin\..\include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C static library libcmTC_8dde6.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+

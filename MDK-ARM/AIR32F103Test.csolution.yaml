@@ -1,0 +1,52 @@
+solution:
+  created-by: uv2csolution@1.0.0
+  created-for: CMSIS-Toolbox@2.0.0
+  packs:
+    - pack: Keil::AIR32F103_DFP
+    - pack: ARM::CMSIS
+    - pack: ARM::CMSIS-NN
+    - pack: ARM::CMSIS-DSP
+  target-types:
+    - type: AIR32F103Test
+      device: AIR32F103CB
+      processor:
+        trustzone: non-secure
+      compiler: AC6
+      add-path:
+        - ../Core/Inc
+        - ../Drivers/AIR32F1xx_HAL_Driver/Inc
+        - ../Drivers/AIR32F1xx_HAL_Driver/Inc/Legacy
+        - ../Drivers/CMSIS/Device/AIR32F1xx/Include
+        # - ../Drivers/CMSIS/Include
+      debug: "on"
+      define:
+        - USE_HAL_DRIVER
+        - AIR32F103xB
+      optimize: speed
+      misc:
+        - C-CPP:
+            - -fno-rtti
+            - -funsigned-char
+            - -fshort-enums
+            - -fshort-wchar
+            - -ffunction-sections
+            - -std=c99
+            - -w
+          ASM:
+            - -masm=auto
+          Link:
+            - --map
+            - --load_addr_map_info
+            - --xref
+            - --callgraph
+            - --symbols
+            - --info sizes
+            - --info totals
+            - --info unused
+            - --info veneers
+            - --list
+            - --strict
+            - --summary_stderr
+            - --info summarysizes
+  projects:
+    - project: AIR32F103Test.cproject.yaml

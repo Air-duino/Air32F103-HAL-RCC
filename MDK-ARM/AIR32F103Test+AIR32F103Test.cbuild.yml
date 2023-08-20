@@ -1,0 +1,158 @@
+build:
+  generated-by: csolution version 2.0.0
+  solution: AIR32F103Test.csolution.yaml
+  project: AIR32F103Test.cproject.yaml
+  context: AIR32F103Test+AIR32F103Test
+  compiler: AC6
+  device: AIR32F103CB
+  processor:
+    fpu: off
+    endian: little
+    trustzone: non-secure
+  packs:
+    - pack: ARM::CMSIS@5.9.0
+      path: ${CMSIS_PACK_ROOT}/ARM/CMSIS/5.9.0
+    - pack: Keil::AIR32F103_DFP@1.1.7
+      path: ${CMSIS_PACK_ROOT}/Keil/AIR32F103_DFP/1.1.7
+  optimize: speed
+  debug: on
+  misc:
+    ASM:
+      - -masm=auto
+    C:
+      - -fno-rtti
+      - -funsigned-char
+      - -fshort-enums
+      - -fshort-wchar
+      - -ffunction-sections
+      - -std=c99
+      - -w
+    CPP:
+      - -fno-rtti
+      - -funsigned-char
+      - -fshort-enums
+      - -fshort-wchar
+      - -ffunction-sections
+      - -std=c99
+      - -w
+    Link:
+      - --map
+      - --load_addr_map_info
+      - --xref
+      - --callgraph
+      - --symbols
+      - --info sizes
+      - --info totals
+      - --info unused
+      - --info veneers
+      - --list
+      - --strict
+      - --summary_stderr
+      - --info summarysizes
+  define:
+    - USE_HAL_DRIVER
+    - AIR32F103xB
+    - AIR32F10X_MD
+    - _RTE_
+  add-path:
+    - ../Core/Inc
+    - ../Drivers/AIR32F1xx_HAL_Driver/Inc
+    - ../Drivers/AIR32F1xx_HAL_Driver/Inc/Legacy
+    - ../Drivers/CMSIS/Device/AIR32F1xx/Include
+    - RTE/_AIR32F103Test
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+    - ${CMSIS_PACK_ROOT}/Keil/AIR32F103_DFP/1.1.7/Device/Include
+  output-dirs:
+    intdir: tmp/AIR32F103Test/AIR32F103Test
+    outdir: out/AIR32F103Test/AIR32F103Test
+    rtedir: RTE
+  output:
+    - type: elf
+      file: AIR32F103Test.axf
+  components:
+    - component: ARM::CMSIS:CORE@5.6.0
+      condition: ARMv6_7_8-M Device
+      from-pack: ARM::CMSIS@5.9.0
+      selected-by: ARM::CMSIS:CORE
+  linker:
+    script: AIR32F103Test_AIR32F103Test.sct
+  groups:
+    - group: Application/MDK-ARM
+      files:
+        - file: ../Core/Src/startup_air32f10x.s
+          category: sourceAsm
+    - group: Application/User/Core
+      files:
+        - file: ../Core/Src/main.c
+          category: sourceC
+        - file: ../Core/Src/gpio.c
+          category: sourceC
+        - file: ../Core/Src/usart.c
+          category: sourceC
+        - file: ../Core/Src/myPrintf.c
+          category: sourceC
+        - file: ../Core/Src/air32f1xx_hal_msp.c
+          category: sourceC
+        - file: ../Core/Src/air32f1xx_it.c
+          category: sourceC
+    - group: Drivers/air32f1xx_HAL_Driver
+      files:
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_cortex.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_crc.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_dma.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_exti.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_flash.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_flash_ex.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_gpio.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_gpio_ex.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_hcd.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_i2c.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_i2s.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_irda.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_iwdg.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_mmc.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_pwr.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_rcc.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_rcc_ex.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_rtc.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_rtc_ex.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_sd.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_spi.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_tim.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_tim_ex.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_uart.c
+          category: sourceC
+        - file: ../Drivers/AIR32F1xx_HAL_Driver/Src/air32f1xx_hal_usart.c
+          category: sourceC
+    - group: Drivers/CMSIS
+      files:
+        - file: ../Drivers/CMSIS/Device/AIR32F1xx/Source/system_air32f1xx.c
+          category: sourceC
+  constructed-files:
+    - file: RTE/_AIR32F103Test/RTE_Components.h
+      category: header

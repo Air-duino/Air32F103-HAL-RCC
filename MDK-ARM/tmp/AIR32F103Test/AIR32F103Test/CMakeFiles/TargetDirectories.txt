@@ -1,0 +1,4 @@
+D:/Air001Test/AIR32F103Test/MDK-ARM/tmp/AIR32F103Test/AIR32F103Test/CMakeFiles/database.dir
+D:/Air001Test/AIR32F103Test/MDK-ARM/tmp/AIR32F103Test/AIR32F103Test/CMakeFiles/AIR32F103Test.dir
+D:/Air001Test/AIR32F103Test/MDK-ARM/tmp/AIR32F103Test/AIR32F103Test/CMakeFiles/edit_cache.dir
+D:/Air001Test/AIR32F103Test/MDK-ARM/tmp/AIR32F103Test/AIR32F103Test/CMakeFiles/rebuild_cache.dir
