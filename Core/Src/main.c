@@ -99,6 +99,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     MyPrintf("SystemCoreClock: %d Hz\n", HAL_RCC_GetSysClockFreq());
+    HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_10);
     HAL_Delay(1000);
   }
   /* USER CODE END 3 */

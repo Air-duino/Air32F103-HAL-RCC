@@ -93,3 +93,7 @@ Listings/*
 
 Objects/*
 *.uvoptx
+
+MDK-ARM/tmp/AIR32F103Test/AIR32F103Test/
+
+MDK-ARM/out/AIR32F103Test/AIR32F103Test/
